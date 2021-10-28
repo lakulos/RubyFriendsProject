@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @friendsdb.First_Name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @friendsdb.Last_Name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @friendsdb.Email %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @friendsdb.Phone_Number %>
+</p>
+
+<p>
+  <strong>Twitter:</strong>
+  <%= @friendsdb.Twitter %>
+</p>
+
+<%= link_to 'Edit', edit_friendsdb_path(@friendsdb), class:"btn btn-primary" %> 
+<%= link_to 'Back', friendsdbs_path, class:"btn btn-primary" %>
